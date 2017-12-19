@@ -48,8 +48,11 @@ Pfizer & Merck
 --
 --
 
-## Methodology
+### Methodology
 
-## Related
+We based our analysis on the NBER's [patent dataset](http://www.nber.org/patents/) which contains patent information from 1963 to 2000. We obtained the various datasets and merged them for analysis. We omitted patents with missing critical data (e.g., company name). We combined the NBER's patent data with Stanford's [patent citation graph](http://snap.stanford.edu/data/cit-Patents.txt.gz), allowing us to determine the influence of patents.
 
-## Credits
+Financial information was obtained through 3 different sources. First, we used [ETFdb.com's top 10 of S&P 500](http://etfdb.com/history-of-the-s-and-p-500) in order to collect the top historical components of the S&P 500 and their market capitalization. We also used [Wharton Research Data Services (WRDS)](https://wrds-web.wharton.upenn.edu/wrds/) as a source of extra information regarding companies in the S&P 500. Finally, we also used [Yahoo! Finance]() to collect historical time series of stock prices for Merck and Pfizer.
+
+Mapping company names is a tedious and complicated process, especially when it is done over a relatively long period of time, as names change due to mergers, acquisitions, splits, etc. We have done our best to properly match company names in financial information with patent data and we believe that such errors are unlikely to affect the general shape of our result or our conclusions. Please let us know if you find an error in the data.
+
