@@ -14,9 +14,11 @@ We intuitively expect that in periods of economic growth, companies will be more
 
 Below is a chart showing the evolution of the S&P 500 index along with the number of granted patents from 1980 to 2000.
 
-![S&P 500 index vs total number of US patents granted between 1980 and 2000](../images/snp_patents.png)
+![S&P 500 index vs total number of US patents granted between 1980 and 2000](../images/sp500_patents.png)
 
-Patents granted correlate very well with the S&P 500 index for this period, with both trends closely following each other. This confirms our intuition that there exists a link between the two. However, we all know that correlation does not imply causation, and so it is fair to wonder exactly what role patents play in the economic growth process. Are patents a driver of economic growth or simply one of its consequences?
+Patents granted correlate pretty well with the S&P 500 index for this period, with both trends closely following each other for the most part. This is even more visible when considering the 30-day and 1-year moving averages. The last few years (from 1996) show a slightly different pattern where the S&P 500 started growing much faster while granted patents kept steady and even decreased a little. This result is due to increased economic growth preceeding the DotCom bubble as well as the end of data collection for our patent dataset.
+
+The correlation seems pretty clear, which confirms our intuition that there exists a link between the two. However, we all know that correlation does not imply causation, and so it is fair to wonder exactly what role patents play in the economic growth process. Are patents a driver of economic growth or simply one of its consequences?
 
 
 ## Act 2 - Leading the Market with Patents
