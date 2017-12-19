@@ -50,7 +50,7 @@ We propose to look more closely at a large pharmaceutical companies which has he
 
 Different metrics can be used to determine a patent's influence. For the purposes of our analysis, we are going to use a patent citation graph and determine through graph algorithms which patents have had the most impact. Since companies tend to apply for multiple patents associated to one medicine as way of covering most of the "real estate" to protect their invention, this process has a good chance of yielding patents of high influence in which companies have invested heavily and expect to make significant profits.
 
-### Aminoacid Derivatives Patent (1983)
+### Aminoacid Derivatives as Antihypertensives Patent (1983)
 
 Merck was granted an important patent on Aminoacid derivatives on 22 February 1983. We show the share prices (at closing time) over a period of 4 years, 1 year, and 1 month in the figure below. We mark in red the day on which that particular patent was granted.
 
