@@ -10,18 +10,19 @@ Over the past couple of months, we have researched the impact of innovation on f
 
 ## Act 1 - Innovation-Driven Economic Growth
 
-Below is a chart showing the evolution of the S&P 500 index along with the number of patents applications from 1980 to 2000.
+We intuitively expect that in periods of economic growth, companies will be more prone to apply for new patents protecting their intellectual property. Similarly, in periods of economic slowdown, companies should be less interested in protecting _secondary_ inventions given that patenting is a relatively expensive exercise. But does that intuition verify in practice?
 
-% S&P 500 vs Patents Applications
+Below is a chart showing the evolution of the S&P 500 index along with the number of granted patents from 1980 to 2000.
 
-We intuitively expect that in periods of economic growth, companies will be more prone to apply for new patents protecting their intellectual property. Similarly, in periods of economic slowdown, companies should be less interested in protecting _secondary_ inventions given that patenting is a relatively expensive exercise.
+![S&P 500 index vs total number of US patents granted between 1980 and 2000](../images/snp_patents.png)
 
-Patent applications correlate very well with the S&P 500.
-
-% S&P 500 vs Patents Applications from top 10 companies
-
+Patents granted correlate very well with the S&P 500 index for this period, with both trends closely following each other. This confirms our intuition that there exists a link between the two. However, we all know that correlation does not imply causation, and so it is fair to wonder exactly what role patents play in the economic growth process. Are patents a driver of economic growth or simply one of its consequences?
 
 ## Act 2 - Leading the Market with Patents
+
+![Breakdown top 100 patent holders according to whether they were in the S&P 500 between 1980 and 1999](../images/top100.png)
+
+Companies in the S&P 500 accounted for exactly 3/4 of the top 100 patent holders between 1980 and 1999. We would expect that to be the case since large corporations potentially stand the most to gain by protecting their intellectual property.
 
 Do companies with more patents become market leaders?
 
