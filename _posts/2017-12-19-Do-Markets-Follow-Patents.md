@@ -29,7 +29,7 @@ It would intuitively make sense that innovative companies manage to capitalize o
 
 The chart below shows the Pearson correlation factors between market capitalization and number of patents granted for the top 10 companies in the S&P 500 ranging from 1980 to 2000. 
 
-![Pearson correlation for the valuation of historical top 10 components in the S&P 500 (34 companies between 1990 and 2000) with their number of patent applications](../images/data/correlation.png)
+![Pearson correlation for the valuation of historical top 10 components in the S&P 500 (34 companies between 1990 and 2000) with their number of patent applications](../images/correlation.png)
 
 In general, the correlation is pretty strong: 0.78 for IBM, 0.79 for General Electric, 0.87 for General Motors, 0.91 for Intel, 0.92 for Coca-Cola, etc. However, there are also some surprising results. For instance, Eastman Kodak, one of the most prolific companies in terms of patent applications, stands at a -0.06 correlation factor. Oil companies fare even worse with pretty high negative correlations: -0.84 for Schlumberger, -0.66 for Standard Oil of Indiana, and -0.99 for Standard Oil of California. Interestingly, Royal Dutch Petrol and Exxon, both oil companies, display a positive correlation. In other words, some companies are not able to extract market value from their patent portfolio, and others (oil companies) are in fact seeing the exact opposite scenario: the more patents they have, the lower their valuation.
 
