@@ -27,9 +27,9 @@ Do companies with more patents become market leaders?
 
 It would intuitively make sense that innovative companies manage to capitalize on their patent portfolio to generate extra shareholder value. However, patents are not always intended to generate quick profit, but can also be used to protect against competition.
 
-The chart below shows the Pearson correlation factors between market capitalization and number of patents granted for the top 10 companies in the S&P 500 ranging from 1970 to 2000. 
+The chart below shows the Pearson correlation factors between market capitalization and number of patents granted for the top 10 companies in the S&P 500 ranging from 1980 to 2000. 
 
-% S&P 500 top 10 vs largest patent holders
+![Pearson correlation for the valuation of historical top 10 components in the S&P 500 (34 companies between 1990 and 2000) with their number of patent applications](../images/data/correlation.png)
 
 In general, the correlation is pretty strong: 0.78 for IBM, 0.79 for General Electric, 0.87 for General Motors, 0.91 for Intel, 0.92 for Coca-Cola, etc. However, there are also some surprising results. For instance, Eastman Kodak, one of the most prolific companies in terms of patent applications, stands at a -0.06 correlation factor. Oil companies fare even worse with pretty high negative correlations: -0.84 for Schlumberger, -0.66 for Standard Oil of Indiana, and -0.99 for Standard Oil of California. Interestingly, Royal Dutch Petrol and Exxon, both oil companies, display a positive correlation. In other words, some companies are not able to extract market value from their patent portfolio, and others (oil companies) are in fact seeing the exact opposite scenario: the more patents they have, the lower their valuation.
 
@@ -52,7 +52,7 @@ Pfizer & Merck
 
 We based our analysis on the NBER's [patent dataset](http://www.nber.org/patents/) which contains patent information from 1963 to 2000. We obtained the various datasets and merged them for analysis. We omitted patents with missing critical data (e.g., company name). We combined the NBER's patent data with Stanford's [patent citation graph](http://snap.stanford.edu/data/cit-Patents.txt.gz), allowing us to determine the influence of patents.
 
-Financial information was obtained through 3 different sources. First, we used [ETFdb.com's top 10 of S&P 500](http://etfdb.com/history-of-the-s-and-p-500) in order to collect the top historical components of the S&P 500 and their market capitalization. We also used [Wharton Research Data Services (WRDS)](https://wrds-web.wharton.upenn.edu/wrds/) as a source of extra information regarding companies in the S&P 500. Finally, we also used [Yahoo! Finance]() to collect historical time series of stock prices for Merck and Pfizer.
+Financial information was obtained through 3 different sources. First, we used [ETFdb.com's top 10 of S&P 500](http://etfdb.com/history-of-the-s-and-p-500) in order to collect the top historical components of the S&P 500 and their market capitalization. We also used [Wharton Research Data Services (WRDS)](https://wrds-web.wharton.upenn.edu/wrds/) as a source of extra information regarding companies in the S&P 500. Finally, we also used [Yahoo! Finance](https://finance.yahoo.com/) to collect historical time series of stock prices for Merck and Pfizer.
 
 Mapping company names is a tedious and complicated process, especially when it is done over a relatively long period of time, as names change due to mergers, acquisitions, splits, etc. We have done our best to properly match company names in financial information with patent data and we believe that such errors are unlikely to affect the general shape of our result or our conclusions. Please let us know if you find an error in the data.
 
